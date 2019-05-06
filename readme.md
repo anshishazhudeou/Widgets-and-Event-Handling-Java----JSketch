@@ -104,56 +104,10 @@
     <li>System-level copy/paste: support pasting the entire canvas an an image (using any supported format) to an outside program (e.g. MS Paint, Photoshop, Pixelmator) (10 marks).</li>
 </ul>
 
-<h2>Technical Requirements</h2>
 
-<p>The following is a list of technical constraints and guidelines:</p>
-<ul>
-    <li>The assignment must be programmed in Java using Swing components.</li>
-    <li>The starting application window should be no larger than 1600x1200.</li>
-    <!-- <li>The layout should be dynamic and designed appropriately to support scaling the application, as described above.</li> -->
-    <li>Appropriate widgets should be selected and used for the interface. Options are appropriately enabled/disabled in the UI.</li>
-    <li>You may use third-party graphics/images, provided that (a) they are licensed to allow you to use them in this way (e.g. Creative Commons), and (b) you comment their origin and license in your README file.</li>
-    <li>You may use any sample code provided in-class (including on the class repository). If you do this, you <strong>must</strong> provide a comment in the code indicating the source of the code. If you use and fail to disclose this information, it could be considered an academic violation. </li>
-</ul>
 
-<h2 id="submission">Submission</h2>
 
-<p>
-    Submit the following to your personal Git repository, in a subdirectory named `assignments/a2':
-</p>
 
-<ul>
-    <li>All files required to build and run your project (including source, images).</li>
-    <li>A gradle.build that will build, then execute, your project by typing only "gradle build" followed by "gradle run" from the command line.</li>
-    <li>A saved drawing from your application that can be loaded to demonstrate your load and save capabilities.</li>
-    <li>A <code>readme.md</code> file that documents your application.</li>
-</ul>
-
-<h2 id="assessment">Assessment</h1>
-
-<p>
-    <ul>
-        <li>Late assignments will not be accepted. </li>
-        <li>TAs will grade on Windows or Mac, using your README as a guideline. If you include more than 10% in additional features, they will only grade the first ones that are submitted.</li>
-    </ul>
-</p>
-
-<p>Your submission will be assessed roughly as follows:</p>
-
-<dl class="assess">
-    <dt>5%</dt><dd>Gradle compiles and runs program.</dd>
-    <dt>60%</dt><dd>Functional requirements, described above.</dd>
-    <dt>25%</dt><dd>Appropriate use of widgets to meet the requirements above.</dd>
-    <dt>10%</dt><dd>Additional features from the list above.</dd>
-</dl>
-
-<h2>Versions</h2>
-
-<ul>
-    <li>1.0. January 29. Initial release.</li>
-    <li>1.1. January 30. Removed window resizing requirement. Switched makefile to gradle.</li>
-    <li>1.2. February 4. Removed dockable toolbars as a feature.</li>
-</ul>
 
 </main>    
 
