@@ -20,7 +20,7 @@ The main area of this drawing program is a canvas that supports drawing shapes. 
 + **A color palette**: a graphical display of at least six colors, which the user can use to select the current color. The current drawing color will be used for any new shapes that are drawn. If a shape is already selected when a color is chosen, the shape's border will change to that new color, in the case of a circle or rectangle. In the case of a line, this will change the line colour (since lines don't have an interior fill colour). Also, there should be a Chooser button that lets the user select an arbitrary color from a color picker dialog.
 + **A line thickness palette**: a graphical display of at least three line widths that the user can select. Selecting a line width will set the border thickness for any new shapes drawn. Selecting a shape will change the border thickness to reflect the line thickness of that shape.
 
-### This drawing program support the following functionality as well:
+### This drawing program supports the following functionality as well:
 + The user is able to move a selected shape around the screen by selecting it, and dragging it with the mouse.
 + Customizable color palette: an user can wholly or partially customize color buttons in the palette (e.g. right-click a button and choose a new color for that button from a color-chooser dialog)
 + The application run at a fixed size and not be resizable.
