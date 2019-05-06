@@ -157,26 +157,6 @@
 
 </main>    
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-bd-4">
-
-            <p>CS 349 User Interfaces (Winter 2019)</p>
-            <p>Cheriton School of Computer Science</p>
-            <p>University of Waterloo</p>
-
-            </div>
-        </div>
-    </div>
-
-    <script type='text/javascript' src="/~cs349/f18/assets/js/jquery.min.js"></script>
-    <script type='text/javascript' src="/~cs349/f18/assets/js/bootstrap.min.js"></script>
-    <script type='text/javascript' src="/~cs349/f18/assets/js/icheck.min.js"></script>
-    <script type='text/javascript' src="/~cs349/f18/assets/js/jquery.fs.selecter.min.js"></script>
-    <script type='text/javascript' src="/~cs349/f18/assets/js/jquery.fs.stepper.min.js"></script>
-</footer>
-
 </body>
 
 </html>
